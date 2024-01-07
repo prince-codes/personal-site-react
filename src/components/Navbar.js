@@ -1,6 +1,6 @@
 import { useState } from "react"
 import "../styles/navbar.css"
-//import logo from '../logo.svg'
+// import logo from '../logo.svg'
 
 export default function Navbar() {
   const [isNavExpanded, setIsNavExpanded] = useState(false)
