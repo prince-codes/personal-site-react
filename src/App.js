@@ -11,10 +11,10 @@ function App() {
         <article>
           <h1>Hi, I'm Prince</h1>
           <p>
-            A software engineer focused on developing or testing web applications. Here you will find information about me, what I do, and my current skills concerning technology.
+            A software engineer focused on developing or testing web applications. Here you will find information about me, what I do, and my current skills concerning technology. Further updates may follow to highlight some personal or client projects. 
           </p>
           <p>
-            Further updates may follow to highlight some personal or client projects.
+            
           </p>
         </article>
       </div>
