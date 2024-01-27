@@ -1,6 +1,7 @@
 import './App.css';
-import Navbar from "./components/Navbar";
 import "./index.css";
+import Navbar from "./components/Navbar";
+
 
 function App() {
   return (
@@ -8,12 +9,13 @@ function App() {
       <Navbar />
       <div className="container">
         <article>
-          <h1>React app coming soon</h1>
-          Stellar forming...
-          <p>Astral World Almost Ready</p>
-          <br></br>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <img src={logo} className="App-logo" alt="logo" />
+          <h1>Hi, I'm Prince</h1>
+          <p>
+            A software engineer focused on developing or testing web applications. Here you will find information about me, what I do, and my current skills concerning technology.
+          </p>
+          <p>
+            Further updates may follow to highlight some personal or client projects.
+          </p>
         </article>
       </div>
     </div>
