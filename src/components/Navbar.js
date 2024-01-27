@@ -36,16 +36,17 @@ export default function Navbar() {
     >
       <ul>
         <li>
-          <a href="/">HOME</a>
+          <a class="item" href="/">HOME</a>
         </li>
         <li>
-          <a href="/about">ABOUT</a>
+          <a class="item" href="/about">ABOUT</a>
         </li>
         <li>
-          <a href="/contact">CONTACT</a>
+          <a class="item" href="/contact">CONTACT</a>
         </li>
       </ul>
     </div>
+    <div class="underline"></div>
   </nav>
   );
 }

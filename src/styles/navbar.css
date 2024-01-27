@@ -57,7 +57,30 @@
   color: #61dafb;
 }
 
-@media screen and (max-width: 768px) {
+/* desktop or tablet view of nav */
+nav .item {
+  font-size: 1.0rem;
+  display: inline-block;
+  position: relative;
+  padding: 0 20px;
+  z-index: 5;
+  min-width: 25%;
+  line-height: 60px;
+  text-align: center;
+  color: #1b1212;
+}
+
+nav .item a {
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+  height: 6px;
+  width: 25%;
+  transition: 0.35s;
+}
+
+/* responsive style */
+@media screen and (max-width: 640px) {
 
   .navigation-menu li a {
     text-decoration: none;
@@ -69,43 +92,6 @@
   .navigation-menu li a:hover {
     color: #61dafb; 
   }
-
-  {/*
-    .App {
-      color: #e9e9eb;
-      text-align: center;
-    }
-    
-    @media (prefers-reduced-motion: no-preference) {
-      .App-logo {
-        animation: App-logo-spin infinite 20s linear;
-      }
-    }
-    
-    .App-header {
-      background-color: #e9e9eb;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      font-size: calc(10px + 2vmin);
-      color: #1b1212;
-    }
-    
-    .App-link {
-      color: #61dafb;
-    }
-    
-    @keyframes App-logo-spin {
-      from {
-        transform: rotate(0deg);
-      }
-      to {
-        transform: rotate(360deg);
-      }
-    }
-  */}
 
   .hamburger {
     display: block;
