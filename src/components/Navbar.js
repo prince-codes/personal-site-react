@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <nav className="navigation">
       <a href="/" className="brand-name">
-        Lil Prince
+        Little Prince
       </a>
       <button 
         className="hamburger"
@@ -16,7 +16,6 @@ export default function Navbar() {
           setIsNavExpanded(!isNavExpanded)
         }}        
       >
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <svg // src={logo} className="App-logo" alt="logo"
           xmlns="http://www.w3.org/2000/svg"
           className="h-5 w-5"
