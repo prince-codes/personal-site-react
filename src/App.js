@@ -1,6 +1,5 @@
 import './App.css';
 import Navbar from "./components/Navbar";
-// import Footer from "./components/Footer.js";
 import "./index.css";
 
 function App() {
@@ -9,11 +8,14 @@ function App() {
       <Navbar />
       <div className="container">
         <article>
-          <h1>What is Lorem Ipsum? </h1>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry...
+          <h1>React app coming soon</h1>
+          Stellar forming...
+          <p>Astral World Almost Ready</p>
+          <br></br>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <img src={logo} className="App-logo" alt="logo" />
         </article>
       </div>
-      {/* <Footer /> */}
     </div>
   );
 }
