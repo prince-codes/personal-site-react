@@ -18,7 +18,7 @@ function App() {
           <p>
             One of my favorite stories to read is <a href="https://youtu.be/APG1upS8LDw?feature=shared">The Little Prince</a>. It seems to be a book that both adults and kids may enjoy for different reasons. 
           </p>
-          {/* <img src={logo} className="App-logo" alt="logo" /> */}
+          <br></br>
         </div>
       </section>
     </div>

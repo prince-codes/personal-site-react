@@ -95,6 +95,7 @@ nav .item a {
 
   .hamburger {
     display: block;
+    z-index: 1;
   }
 
   .navigation-menu ul {
@@ -104,8 +105,6 @@ nav .item a {
     flex-direction: column;
     width: 100%;
     height: calc(100vh - 77px);
-    /* background: rgba(0,0,0,5.0); */
-    /* background-color: #414148; */
     border-top: 1px solid #414148;
     display: none;
   }
@@ -115,10 +114,6 @@ nav .item a {
     width: 100%;
     padding: 1.5rem 0;
   }
-
-  /* .navigation-menu.expanded {
-    background: rgba(0,0,0,5.0);
-  } */
 
   .navigation-menu.expanded ul {
     display: block;
