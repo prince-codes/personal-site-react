@@ -17,7 +17,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.container {
+.banner {
   color: #1b1212;
   max-width: 90%;
   margin-right: auto;
