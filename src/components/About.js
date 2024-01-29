@@ -1,3 +1,5 @@
+import "../styles/about.css"
+
 export const About = () => {
     return (
         <div class="banner-content">
