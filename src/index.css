@@ -108,6 +108,10 @@ section.top .socials > a {
   text-decoration: none;
 }
 
+section.top .socials > a:hover {
+  color: #61dafb;
+}
+
 .socials-column :is(h2, p) {
   display: none;
 }
